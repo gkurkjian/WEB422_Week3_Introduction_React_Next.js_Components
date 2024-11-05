@@ -1,5 +1,6 @@
 import Hello from "./Components/SayHello"
 import SayMessage from "./Components/SayMessage";
+import ShowImg from "./Components/ShowImg"
 
 
 export default function Home() {
@@ -14,8 +15,10 @@ export default function Home() {
       <SayMessage msg={"Next.js is awesome"} exclamation="!!!" />
       <SayMessage />
 
+      <br />
 
-
+      {/** Here I'm calling this img from ShowImg.js component**/}
+      <ShowImg />
     </>
   );
 }
