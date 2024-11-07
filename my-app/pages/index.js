@@ -5,6 +5,7 @@ import Hello from "./Components/SayHello"
 import SayMessage from "./Components/SayMessage";
 import ShowImg from "./Components/ShowImg"
 import UseState from "./Components/UseState";
+import UseEffect from "./Components/UseEffect"
 
 
 export default function Home() {
@@ -44,6 +45,8 @@ export default function Home() {
       <h1>Here it's coming from UseState component</h1><br />
       <UseState />
 
+      <h1>Here it's coming from UseEffect component</h1><br />
+      <UseEffect />
     </>
   );
 }
